@@ -2,16 +2,14 @@ const proyectos = document.querySelector('#proyectos');
 const titulo = document.querySelector('#titulo');
 
 
+titulo.addEventListener('click', abrirProyectos);
 titulo.addEventListener('click', ()=> {
     if(proyectos.style.display === 'none') {
         proyectos.style.display = 'block';
     } else {
         proyectos.style.display = 'none'
     }
-})
-
-titulo.addEventListener('click', abrirProyectos);
-
+});
 
 function abrirProyectos() {
     limpiarHTML();
