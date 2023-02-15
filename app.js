@@ -29,7 +29,7 @@ function abrirProyectos() {
 
 
     proyectos.appendChild(anchor);
-    proyectos.appendChild(anchor2);
+    proyectos.appendChild(anchor2); 
     proyectos.appendChild(anchor3);
 
     
