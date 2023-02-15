@@ -160,6 +160,14 @@ a {
     display: none;
 }
 
+.main__proyectos--titulo {
+    margin-bottom: 0;
+}
 .main__proyectos--proyectos {
-    display: flex;
+    display: none;
+}
+
+span {
+    display: inline-block;
+    font-size: 1.2rem;
 }
