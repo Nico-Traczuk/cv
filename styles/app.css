@@ -207,3 +207,9 @@ span {
     text-transform: uppercase;
 }
 
+.footer__texto {
+    text-align: center;
+    margin: 0;
+    font-size: 1.2rem;
+    letter-spacing: 0;
+}
