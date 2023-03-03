@@ -40,6 +40,7 @@ function abrirProyectos() {
     proyectos.appendChild(anchor2); 
     proyectos.appendChild(anchor3);
 
+
 }
 
 
@@ -48,4 +49,5 @@ function limpiarHTML() {
         proyectos.removeChild(proyectos.firstChild)
     }
 }
+
 

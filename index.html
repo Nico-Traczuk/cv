@@ -23,11 +23,14 @@
     </header>
 
     <main class="main__contenedor">
-        <div class="main__datos">
-            <div class="main__perfil">
-                <h2 class="main__perfil--titulo">Perfil Profesional</h2>
-                <p class="main__perfil--texto">Considero que todos los problemas tienen una solución. Creo firmemente en que cualquier persona está, en su debido tiempo, apoyo y preparación, capacitada para realizar cualquier tarea que se proponga. Eficiencia sobre tiempo. Tuve la oportunidad de retomar lo que había dejado y no la desaproveché.</p>
-            </div>
+        <section id="datos">
+            <div class="main__datos">
+                <div class="main__perfil">
+                    <h2 class="main__perfil--titulo">Perfil Profesional</h2>
+                    <p class="main__perfil--texto">Considero que todos los problemas tienen una solución. Creo firmemente en que cualquier persona está, en su debido tiempo, apoyo y preparación, capacitada para realizar cualquier tarea que se proponga. Eficiencia sobre tiempo. Tuve la oportunidad de retomar lo que había dejado y no la desaproveché.</p>
+                </div>
+        </section>
+        <section id="skills">
             <div class="main__skills">
                 <h2 class="main__skills--titulo">Skills</h2>
                     <li>HTML</li>
@@ -35,6 +38,8 @@
                     <li>Javascript, nivel intermedio</li>
                     <li>Inglés técnico</li>
             </div>
+        </section>
+        <section id="insignias">    
             <div class="main__insignias">
                 <h2 class="main__insignias--titulo">Insignias</h2>
                 <div class="main__insignias--grid">
@@ -46,6 +51,8 @@
                     <a class="main__insignias--link" target="_blank" href="https://www.efset.org/cert/y2Xt6U">EF Standard English Test</a>
                 </div>      
             </div>
+        </section>
+        <section id="contacto">
             <div class="main__contacto">
                 <h2 class="main__contacto--titulo">Contactos</h2>
                 <div class="main__contacto--grid">
@@ -76,12 +83,14 @@
 
                 </div>    
             </div>
+        </section>
+        <section>
             <div class="main__proyectos">
-                <h2 class="main__proyectos--titulo" id="titulo">Proyectos</h2>  <span>(Haz click en el título para ver los proyectos)</span> 
+                <h2 class="main__proyectos--titulo" id="titulo">Proyectos</h2> 
+                <p class="main__proyectos--texto" >(Haz doble-click en el <span>título</span> para ver los proyectos)</p>  
                 <div class="main__proyectos--proyectos" id="proyectos" ></div>
             </div>
-        </div>
-
+        </section>  
     </main>
     <script src="app.js" ></script>
 </body>
